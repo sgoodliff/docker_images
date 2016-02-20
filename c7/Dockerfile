@@ -3,7 +3,7 @@ MAINTAINER "Steven Goodliff" <sgoodliff@gmail.com>
 ENV container docker
 
 RUN yum -y install httpd; yum clean all
-RUN echo "The Web Server is Running" > /var/www/html/index.html
+RUN echo "The Web Server is Running Today" > /var/www/html/index.html
 EXPOSE 80
 
 # Start the service
